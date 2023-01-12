@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import Container from "../../components/utils/Container";
 
-const About = () => {
+const Terms = () => {
   return (
     <>
       <Head>
@@ -53,7 +53,7 @@ const About = () => {
                 </p>
               </div>
               <div className="mt-6 mb-16 md:mb-32 anchor" id="overview">
-                <h3 className="text-[24px] pb-5">Overview</h3>
+                <h3 className="text-[24px] pb-5 font-semibold">Overview</h3>
                 <p className="text-[18px] font-light pb-5">
                   Lorem ipsum dolor sit amet consectetur. Justo in rho orci
                   velit placerat enim.Lorem ipsum dolor sit amet consectetur.
@@ -82,7 +82,9 @@ const About = () => {
                 </p>
               </div>
               <div className="mt-6 mb-16 md:mb-32 anchor" id="Interpretations">
-                <h3 className="text-[24px] pb-5">Interpretations</h3>
+                <h3 className="text-[24px] pb-5 font-semibold">
+                  Interpretations
+                </h3>
                 <p className="text-[18px] font-light pb-5">
                   Lorem ipsum dolor sit amet consectetur. Justo in rho orci
                   velit placerat enim.Lorem ipsum dolor sit amet consectetur.
@@ -111,7 +113,9 @@ const About = () => {
                 </p>
               </div>
               <div className="mt-6 mb-16 md:mb-32 anchor" id="contactduration">
-                <h3 className="text-[24px] pb-5">Contact Duration</h3>
+                <h3 className="text-[24px] pb-5 font-semibold">
+                  Contact Duration
+                </h3>
                 <p className="text-[18px] font-light pb-5">
                   Lorem ipsum dolor sit amet consectetur. Justo in rho orci
                   velit placerat enim.Lorem ipsum dolor sit amet consectetur.
@@ -147,4 +151,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Terms;

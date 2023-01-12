@@ -9,6 +9,8 @@
         scroll-behavior: smooth;
       }
 
+      
+
     .bg-blacka{
         background: #1E1E1E;
     }
@@ -49,11 +51,22 @@
     }
 
     .bg-about{
+        
+        background: linear-gradient(95.48deg, rgba(0, 157, 255, 0.5) 2.25%, rgba(244, 8, 107, 0.5) 100%);  
         background-image: url(../public/assets/images/bg-about.png);
         background-repeat: no-repeat;
-        background-size: cover;        
+        background-size: cover;             
+    }
+    
+    .bg-table{
+        background-color: #3B3541;
     }
 
+    .border-table{
+        border: 1px solid #B8B9BE ;
+    }
+
+   
     .about-block{
         background: rgba(29, 28, 28, 0.6);
         backdrop-filter: blur(12.5px);
@@ -106,7 +119,22 @@
         margin-top:-100px;
      }
  
-  
+     .checkboxwa{      
+            
+        --tw-ring-color: linear-gradient(103.17deg, #AF4E9D 16.3%, #2E3182 91.55%) !important; 
+        --tw-ring-offset-shadow: green !important;
+        --tw-ring-shadow: green !important;
+
+
+        
+
+      }
+      .checkboxwa:checked{
+        background-image: url(../public/assets/icons/checked.svg) !important; 
+        background-position: top;
+    background-size: 22px;
+
+      } 
     
 }
 

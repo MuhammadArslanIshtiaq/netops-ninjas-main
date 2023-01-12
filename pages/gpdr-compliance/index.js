@@ -3,11 +3,11 @@ import React from "react";
 import Link from "next/link";
 import Container from "../../components/utils/Container";
 
-const PrivacyPolicy = () => {
+const GPDRCompliance = () => {
   return (
     <>
       <Head>
-        <title>Privacy Policy - Netops Ninjas</title>
+        <title>GPDR Compliance - Netops Ninjas</title>
       </Head>
 
       <div className="grid grid-cols-7">
@@ -20,8 +20,11 @@ const PrivacyPolicy = () => {
           </Link>
           <Link href="/privacy-policy" aria-label="Privacy Policy Page">
             {" "}
-            <h5 className="text-xl text-blue-dark mb-3 border-l-4 border-current pl-2 ">
-              Privacy Policy
+            <h5 className="text-xl text-blue-dark mb-5">Privacy Policy</h5>
+          </Link>
+          <Link href="/gpdr-compliance" aria-label="GDPR Compliance Page">
+            <h5 className="text-xl text-blue-dark my-5 border-l-4 border-current pl-2">
+              GDPR Compliance
             </h5>
           </Link>
           <ul className="list-disc text-white list-inside pl-2">
@@ -29,9 +32,6 @@ const PrivacyPolicy = () => {
               <a href="#overview">Overview</a>
             </li>
           </ul>
-          <Link href="/gpdr-compliance" aria-label="GDPR Compliance Page">
-            <h5 className="text-xl text-blue-dark my-5">GDPR Compliance</h5>
-          </Link>
         </aside>
 
         <main className="col-span-7 md:col-span-5 bg-primary text-white">
@@ -39,7 +39,7 @@ const PrivacyPolicy = () => {
             <div className="my-36 max-w-4xl">
               <div>
                 <h1 className="inline-block text-[32px] font-extrabold text-blue-dark mb-3">
-                  Privacy Policy
+                  GPDR Compliance
                 </h1>
                 <p className="text-[18px] font-light mb-5">
                   Lorem ipsum dolor sit amet consectetur. Justo in rho orci
@@ -83,4 +83,4 @@ const PrivacyPolicy = () => {
   );
 };
 
-export default PrivacyPolicy;
+export default GPDRCompliance;
