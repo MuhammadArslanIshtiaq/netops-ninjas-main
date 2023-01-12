@@ -48,7 +48,7 @@
     }
 
     .bg-about{
-        background-image: url(../public/assets/images/bg-about.svg);
+        background-image: url(../public/assets/images/bg-about.png);
         background-repeat: no-repeat;
         background-size: cover;        
     }
