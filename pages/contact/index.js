@@ -9,7 +9,7 @@ const ContactUs = () => {
       <Head>
         <title>Contact US - Netops Ninjas</title>
       </Head>
-      <main className="bg-primary text-white pt-20">
+      <main className="bg-section text-white pt-20">
         <ContactSection />
         <ContactThroughSection />
       </main>

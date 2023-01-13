@@ -6,7 +6,7 @@ import { ArrowFullIcon } from "../utils/Icons";
 
 const AboutSection = () => {
   return (
-    <section className="bg-primary text-white pt-12 sm:pt-20">
+    <section className="bg-section text-white pt-12 sm:pt-20">
       <Container>
         <div className="mx-auto max-w-6xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -24,7 +24,7 @@ const AboutSection = () => {
               </p>
               <Link
                 href="#"
-                className="bg-g-primary text-white text-lg font-semibold rounded-xl py-5 px-10 hover:opacity-90 transition-all duration-300"
+                className="bg-g-primary text-white text-lg font-bold rounded-xl py-5 px-10 hover:opacity-90 transition-all duration-300"
               >
                 Learn more
               </Link>

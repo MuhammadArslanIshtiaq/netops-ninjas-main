@@ -10,8 +10,8 @@ const PrivacySettings = () => {
         <title>Privacy Settings - Netops Ninjas</title>
       </Head>
 
-      <div className="grid grid-cols-7">
-        <aside className="self-start mx-auto sticky top-[10rem] col-span-2 hidden md:block">
+      <div className="grid grid-cols-7 bg-section">
+        <aside className="self-start mx-auto sticky mb-10 top-[10rem] col-span-2 hidden md:block">
           <Link href="/privacy-settings" aria-label="Privacy Setting Page">
             <h5 className="text-xl text-blue-dark mb-3 border-l-4 border-current pl-2">
               Privacy Settings
@@ -44,7 +44,7 @@ const PrivacySettings = () => {
           </Link>
         </aside>
 
-        <main className="col-span-7 md:col-span-5 bg-primary text-white">
+        <main className="col-span-7 md:col-span-5 text-white">
           <Container>
             <div className="my-36 max-w-4xl">
               <div>

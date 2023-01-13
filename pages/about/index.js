@@ -67,14 +67,14 @@ const About = () => {
       <Head>
         <title>About - Netops Ninjas</title>
       </Head>
-      <main>
-        <section className="bg-primary text-white pt-12 sm:pt-20">
+      <main className="bg-section">
+        <section className="bg-section text-white pt-12 sm:pt-20">
           <Container>
             <div className="my-20 max-w-4xl mx-auto text-center pt-20">
-              <h5 className="inline-block text-xl font-extrabold uppercase text-gradient mb-3">
+              <h5 className="inline-block text-lg font-extrabold uppercase text-gradient mb-3">
                 About us
               </h5>
-              <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight">
+              <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-bold leading-tight sm:leading-tight xl:leading-tight">
                 Lorem Ipsum Dolor Sit Amet Consectutor Matahari Stella le aiyang
               </h2>
               <p className="mt-6 max-w-xl mx-auto text-[1.375rem] text-gray-200">
@@ -105,13 +105,13 @@ const About = () => {
           </div>
         </section>
 
-        <section className="bg-primary text-white pt-12 sm:pt-20">
+        <section className="bg-section text-white pt-12 sm:pt-20">
           <Container>
             <div className="my-20 max-w-4xl mx-auto text-center pt-2">
-              <h5 className="inline-block text-xl font-extrabold uppercase text-gradient mb-3">
+              <h5 className="inline-block text-lg font-extrabold uppercase text-gradient mb-3">
                 About us
               </h5>
-              <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight">
+              <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-bold leading-tight sm:leading-tight xl:leading-tight">
                 Lorem Ipsum Dolor Sit Amet Consectutor Matahari Stella le aiyang
               </h2>
               <p className="mt-6 max-w-xl mx-auto text-[1.375rem] text-gray-200">
@@ -121,7 +121,7 @@ const About = () => {
             </div>
           </Container>
         </section>
-        <section className="bg-primary text-white pt-12 sm:pt-20">
+        <section className="bg-section text-white pt-12 sm:pt-20">
           <div className="mx-auto max-w-xl px-6 lg:max-w-7xl lg:px-8">
             <dl className="grid grid-cols-1 gap-16 lg:grid lg:grid-cols-3">
               {features.map((feature) => (

@@ -33,17 +33,17 @@ const testimonialList = [
 
 const TestimonialSection = () => {
   return (
-    <section className="bg-primary text-white pt-24 pb-12 sm:pb-20">
-      <Container>
-        <div className="relative">
-          <span className="hidden xl:block absolute top-3/4 -translate-y-1/2 left-0 h-96 w-96">
-            <Image fill src="/assets/images/bg-t-left.png" alt="..." />
-          </span>
+    <section className="bg-section text-white sm:pt-24 pb-12 sm:pb-20">
+      <div className="relative">
+        <span className="hidden xl:block absolute top-3/4 -translate-y-1/2 left-0 h-96 w-96">
+          <img src="/assets/images/bg-t-left1.png" width="100%" alt="..." />
+        </span>
 
-          <span className="hidden xl:block absolute top-3/4 -translate-y-1/2 right-0 h-96 w-96">
-            <Image fill src="/assets/images/bg-t-right.png" alt="..." />
-          </span>
+        <span className="hidden xl:block absolute top-3/4 -translate-y-1/2 right-0 h-96 w-96">
+          <img src="/assets/images/bg-t-right1.png" width="100%" alt="..." />
+        </span>
 
+        <Container>
           <div className="mx-auto max-w-3xl">
             <div className="text-center mb-12">
               <h5 className="inline-block text-lg font-extrabold uppercase text-gradient mb-2">
@@ -53,6 +53,7 @@ const TestimonialSection = () => {
                 Check what our clients are saying
               </h2>
             </div>
+
             {/* === */}
             <Swiper
               className="testimonial-swiper"
@@ -70,8 +71,8 @@ const TestimonialSection = () => {
               ))}
             </Swiper>
           </div>
-        </div>
-      </Container>
+        </Container>
+      </div>
     </section>
   );
 };

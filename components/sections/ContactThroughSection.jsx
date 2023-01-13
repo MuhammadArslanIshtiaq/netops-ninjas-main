@@ -28,7 +28,7 @@ const contactList = [
 
 const ContactThroughSection = () => {
   return (
-    <section className="bg-primary text-white py-12 sm:py-20">
+    <section className="bg-section text-white py-12 sm:py-20">
       <Container>
         <div className="mx-auto lg:max-w-6xl">
           <div className="text-center mb-12 md:mb-20">

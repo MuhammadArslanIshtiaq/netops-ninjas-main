@@ -8,7 +8,7 @@ const servicesList = [
     iconUrl: "/assets/icons/as-06.svg",
     title: "Networking",
     description: `End-to-end payments and financial management in a single solution. Meet the right platform.`,
-    link: "#",
+    link: "/networking",
   },
   {
     iconUrl: "/assets/icons/az-06.png",
@@ -52,7 +52,7 @@ const servicesList = [
 
 const WhatWeDoSection = () => {
   return (
-    <section className="text-white relative bg-cover bg-center bg-[url('/assets/images/bg-servics.png')]">
+    <section className="pt-16 text-white relative bg-cover bg-center bg-[url('/assets/images/bg-servics.png')]">
       <span className="z-10 absolute top-0 left-0 w-full h-full bg-gradient-to-r from-primary via-primary to-[#53143B] opacity-80" />
       <span className="absolute z-10 w-96  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 shadow-blue-overlay" />
 
@@ -62,10 +62,10 @@ const WhatWeDoSection = () => {
             <div className="relative h-16 w-12 mx-auto mb-2">
               <Image fill src="/assets/images/arrow.png" alt="..." />
             </div>
-            <h5 className="inline-block text-xl font-extrabold uppercase text-gradient mb-3">
+            <h5 className="inline-block text-lg font-extrabold uppercase text-gradient mb-3">
               What we do
             </h5>
-            <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-bold leading-tight sm:leading-tight xl:leading-tight">
               Lorem Ipsum Dolor Sit Amet Consectutor Matahari Stella le aiyang
             </h2>
             <p className="mt-6 max-w-xl mx-auto text-[1.375rem] text-gray-200">
@@ -74,7 +74,7 @@ const WhatWeDoSection = () => {
             </p>
           </div>
 
-          <div className="py-12 sm:py-20">
+          <div className="pt-2 pb-12 sm:pb-24">
             <div className="xl:max-w-5xl mx-auto">
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {servicesList.map((item, index) => (

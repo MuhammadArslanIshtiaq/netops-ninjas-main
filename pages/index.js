@@ -18,7 +18,6 @@ export default function Home() {
         <WhatWeDoSection />
         <AboutSection />
         <WhyNetopsSection />
-        <OurClientsSection />
         <TestimonialSection />
         <CtaSection />
       </main>

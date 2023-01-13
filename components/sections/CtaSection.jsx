@@ -4,7 +4,7 @@ import Container from "../utils/Container";
 
 const CtaSection = () => {
   return (
-    <section className="bg-primary text-white pb-12 lg:py-20">
+    <section className="bg-section text-white pb-12 lg:py-20 ">
       <Container>
         <div className="max-w-6xl mx-auto">
           <div className="bg-g-primary rounded-xl">

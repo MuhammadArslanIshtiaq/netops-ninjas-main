@@ -12,7 +12,7 @@ const brandList = [
 
 const OurClientsSection = () => {
   return (
-    <section className="bg-primary text-white pb-12 sm:pb-20">
+    <section className="bg-section text-white pb-12 sm:pb-20">
       <Container>
         <div className="text-center mx-auto max-w-2xl mb-12">
           <h5 className="inline-block text-lg font-extrabold uppercase text-gradient mb-2">

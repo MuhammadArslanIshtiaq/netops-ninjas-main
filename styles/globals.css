@@ -14,6 +14,10 @@
     .bg-blacka{
         background: #1E1E1E;
     }
+
+    .bg-section{
+        background-color: #0D0316;
+    }
     .bg-navbar {
         background: #7d7d7d59;
         backdrop-filter: blur(15px);

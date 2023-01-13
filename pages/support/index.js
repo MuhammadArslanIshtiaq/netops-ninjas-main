@@ -12,8 +12,8 @@ const SupportPage = () => {
       <Head>
         <title>Support - Netops Ninjas</title>
       </Head>
-      <main>
-        <section className="relative bg-primary text-white py-12 sm:py-20">
+      <main className="bg-section">
+        <section className="relative bg-section text-white py-12 sm:py-20">
           <span className="absolute inset-0">
             <Image fill src="/assets/images/bg-lines.svg" alt="..." />
           </span>
@@ -24,7 +24,7 @@ const SupportPage = () => {
                   <h5 className="inline-block text-lg font-extrabold uppercase text-gradient mb-4">
                     24/7 Support
                   </h5>
-                  <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight mb-6">
+                  <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-bold leading-tight sm:leading-tight xl:leading-tight mb-6">
                     Get Our Help Fast
                   </h2>
                   <p className="mb-16 lg:max-w-xl text-[1.375rem] text-gray-200">
@@ -72,7 +72,7 @@ const SupportPage = () => {
             </div>
           </Container>
         </section>
-        <section className="bg-gradient-to-br from-primary via-primary to-[#53143B] text-white pb-12 sm:pb-20 lg:mt-56">
+        <section className="bg-section text-white pb-12 sm:pb-20 lg:mt-56">
           <Container>
             <div className="mb-12 max-w-4xl mx-auto text-center pt-2">
               <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight">
