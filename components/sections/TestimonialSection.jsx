@@ -33,7 +33,7 @@ const testimonialList = [
 
 const TestimonialSection = () => {
   return (
-    <section className="bg-section text-white sm:pt-24 pb-12 sm:pb-20">
+    <section className="bg-section text-white sm:pt-24 py-12 sm:pb-20">
       <div className="relative">
         <span className="hidden xl:block absolute top-3/4 -translate-y-1/2 left-0 h-96 w-96">
           <img src="/assets/images/bg-t-left1.png" width="100%" alt="..." />

@@ -10,11 +10,11 @@ const CtaSection = () => {
           <div className="bg-g-primary rounded-xl">
             <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-24 lg:px-16">
               <div>
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900 md:text-4xl mb-8">
+                <h2 className="text-2xl md:text-4xl font-bold tracking-tight text-gray-900  mb-8">
                   Lorem Ipsum{" "}
                   <span className="text-line red">Dolor sit Amet</span>
                 </h2>
-                <p className="text-lg md:text-2xl font-semibold text-gray-900">
+                <p className="text-md md:text-2xl font-semibold text-gray-900">
                   Lorem Ipsum Dolor sit Amet Consictutor mullar acap
                 </p>
               </div>

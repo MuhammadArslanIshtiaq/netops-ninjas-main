@@ -41,11 +41,8 @@ const NetworkingPage = () => {
       <Head>
         <title>Networking - Netops Ninjas</title>
       </Head>
-      <main>
-        <section className="relative bg-primary text-white py-12 sm:py-20">
-          {/* <span className="absolute inset-0">
-            <Image fill src="/assets/images/service-arrow.svg" alt="..." />
-          </span> */}
+      <main className="bg-section">
+        <section className="relative text-white py-12 sm:py-20">
           <Container>
             <div className="mx-auto max-w-6xl">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -83,7 +80,7 @@ const NetworkingPage = () => {
             </div>
           </Container>
         </section>
-        <section className=" bg-gradient-to-br bg-primary text-white sm:pb-20 lg:mt-20">
+        <section className=" bg-gradient-to-br  text-white sm:pb-20 lg:mt-20">
           <Container>
             <div className="mx-auto max-w-4xl sm:px-6 lg:px-24 text-center">
               <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight">

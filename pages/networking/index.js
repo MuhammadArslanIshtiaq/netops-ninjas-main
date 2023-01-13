@@ -47,9 +47,6 @@ const NetworkingPage = () => {
       </Head>
       <main className="bg-section">
         <section className="relative bg-section text-white py-12 sm:py-20">
-          {/* <span className="absolute inset-0">
-            <Image fill src="/assets/images/service-arrow.svg" alt="..." />
-          </span> */}
           <Container>
             <div className="mx-auto max-w-6xl">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -70,12 +67,13 @@ const NetworkingPage = () => {
                     Learn more
                   </Link>
                 </div>
-                <div className="order-first lg:order-last py-16 lg:py-0">
-                  <div className="min-h-[25rem] sm:min-h-[37.5rem] lg:min-h-[43.75rem] h-full relative">
+
+                <div className="order-first lg:order-last sm:py-16 lg:py-0 mx-auto">
+                  <div className="min-h-[25rem] sm:min-h-[37.5rem] lg:min-h-[43.75rem] h-full relative pt-24">
                     <Image
                       src="/assets/images/feature-img-networking.png"
-                      width="900"
-                      height="900"
+                      width={785}
+                      height={785}
                       alt="..."
                     />
                     <span className="hidden lg:block absolute -bottom-72 left-[25%] -translate-x-1/2">
