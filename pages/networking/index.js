@@ -45,8 +45,8 @@ const NetworkingPage = () => {
       <Head>
         <title>Networking - Netops Ninjas</title>
       </Head>
-      <main>
-        <section className="relative bg-primary text-white py-12 sm:py-20">
+      <main className="bg-section">
+        <section className="relative bg-section text-white py-12 sm:py-20">
           {/* <span className="absolute inset-0">
             <Image fill src="/assets/images/service-arrow.svg" alt="..." />
           </span> */}
