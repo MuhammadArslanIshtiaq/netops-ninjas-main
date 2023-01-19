@@ -46,7 +46,7 @@ const Header = () => {
                     <li key={`links-${index}`}>
                       {item.menu && (
                         <Dropdown title={item.name} link={item.menuLink}>
-                          <item.menu />
+                          <item.menu onClick={closeMenu} />
                         </Dropdown>
                       )}
                       {item.link && (
@@ -105,7 +105,7 @@ const Header = () => {
                   <li key={`links-${index}`}>
                     {item.menu && (
                       <Dropdown title={item.name} link={item.menuLink}>
-                        <item.menu />
+                        <item.menu onClick={closeMenu} />
                       </Dropdown>
                     )}
                     {item.link && (

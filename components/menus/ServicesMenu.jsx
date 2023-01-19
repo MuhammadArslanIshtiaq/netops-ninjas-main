@@ -12,7 +12,7 @@ const links = [
   { link: "#", name: "Digital Marketing" },
 ];
 
-const ServicesMenu = () => {
+const ServicesMenu = ({ onClick }) => {
   return (
     <>
       <Menu.Item>
@@ -21,6 +21,7 @@ const ServicesMenu = () => {
             <Link
               key={`service-link-${index}`}
               href={item.link}
+              onClick={onClick}
               className={
                 "block py-2 text-base font-medium text-white text-opacity-80 hover:text-opacity-100 capitalize border-b-2 border-gray-500"
               }
