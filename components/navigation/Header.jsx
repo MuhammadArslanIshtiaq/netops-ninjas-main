@@ -32,7 +32,12 @@ const Header = () => {
             <div className="relative flex items-center justify-between">
               <div>
                 <Link href="/" className="block relative h-8 w-56">
-                  <Image fill src="/assets/images/logo.svg" alt=".." />
+                  <Image
+                    width={240}
+                    height={130}
+                    src="/assets/images/logo.gif"
+                    alt=".."
+                  />
                 </Link>
               </div>
               <div className="flex flex-1 items-center justify-center lg:items-stretch lg:justify-end">
