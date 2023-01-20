@@ -19,7 +19,9 @@
     "next": "13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "swiper": "^8.4.5"
+    "react-tsparticles": "^2.8.0",
+    "swiper": "^8.4.5",
+    "tsparticles": "^2.8.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",

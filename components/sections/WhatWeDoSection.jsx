@@ -52,7 +52,7 @@ const servicesList = [
 
 const WhatWeDoSection = () => {
   return (
-    <section className="pt-16 text-white relative bg-cover bg-center bg-[url('/assets/images/bg-servics.png')]">
+    <section className="pt-16 z-10 text-white relative bg-cover bg-center bg-[url('/assets/images/bg-servics.png')]">
       <span className="z-10 absolute top-0 left-0 w-full h-full bg-gradient-to-r from-primary via-primary to-[#53143B] opacity-80" />
       <span className="absolute z-10 w-96  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 shadow-blue-overlay" />
 

@@ -9,12 +9,13 @@ import { ArrowRightIcon } from "@heroicons/react/20/solid";
 const ContactCard = ({ items }) => {
   const [hover, setHover] = useState(false);
   return (
-    <div className="service-card relative h-full transition-all duration-500 group hover:bg-black/50 border-2 border-gray-600 hover:border-l-secondary hover:border-t-secondary hover:border-r-pink-500 hover:border-b-pink-500 rounded-xl">
+    <div
+      onMouseOver={() => setHover(true)}
+      onMouseOut={() => setHover(false)}
+      className="service-card relative h-full transition-all duration-500 group hover:bg-black/50 border-2 border-gray-600 hover:border-l-secondary hover:border-t-secondary hover:border-r-pink-500 hover:border-b-pink-500 rounded-xl"
+    >
       <div className="p-6 flex flex-col items-start">
-        <div
-          onMouseOver={() => setHover(true)}
-          onMouseOut={() => setHover(false)}
-        >
+        <div>
           <span className="block h-14 min-w-[2.5rem] relative">
             <Image fill src={hover ? items.iconUrl2 : items.iconUrl} />
           </span>

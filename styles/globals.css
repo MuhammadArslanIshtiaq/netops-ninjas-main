@@ -59,6 +59,11 @@
     );
   }
 
+  .bg-g-4 {
+    background: linear-gradient(142.28deg, #f7066a 15.13%, #009dff 85.42%);
+    filter: blur(117.5px);
+  }
+
   .text-gradient {
     background: linear-gradient(90.16deg, #05c7fc 1.33%, #ef0c6f 105.91%);
     -webkit-background-clip: text;
@@ -149,6 +154,14 @@
     background-image: url(../public/assets/icons/checked.svg) !important;
     background-position: top;
     background-size: 22px;
+  }
+
+  .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(100vh);
+    width: 100%;
   }
 }
 

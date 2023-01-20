@@ -10,28 +10,41 @@ import TestimonialSection from "../../../components/sections/TestimonialSection"
 
 const serviceList = [
   {
-    title: "Cisco",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    title: "Cisco SD-WAN",
+    description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
+  },
+
+  {
+    title: "Routers",
+    description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
   {
-    title: "Cisco",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    title: "Access Networking",
+    description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
   {
-    title: "Cisco",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    title: "Switches",
+    description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
   {
-    title: "Cisco",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    title: "Wireless",
+    description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
   {
-    title: "Cisco",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    title: "Data Center Networking",
+    description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
   {
-    title: "Cisco",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    title: "Intent-based Networking",
+    description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
+  },
+  {
+    title: "Enterprise Network Security",
+    description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
+  },
+  {
+    title: "Optics and Transceivers",
+    description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
 ];
 
@@ -66,7 +79,7 @@ const NetworkingPage = () => {
                 <div className="order-first lg:order-last sm:py-16 mt-10 ml-10 lg:py-0">
                   <div className="min-h-[20rem] sm:min-h-[37.5rem] lg:min-h-[43.75rem] h-full relative mt-10">
                     <Image
-                      src="/assets/images/feature-img-cisco.png"
+                      src="/assets/images/feature-img-cisco1.png"
                       width={950}
                       height={950}
                       alt="..."
@@ -80,7 +93,7 @@ const NetworkingPage = () => {
             </div>
           </Container>
         </section>
-        <section className=" bg-gradient-to-br  text-white sm:pb-20 lg:mt-20">
+        <section className=" bg-gradient-to-br  text-white sm:pb-10 lg:mt-20">
           <Container>
             <div className="mx-auto max-w-4xl sm:px-6 lg:px-24 text-center">
               <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight">
@@ -91,11 +104,11 @@ const NetworkingPage = () => {
                 interdum scelerisque dui in est orci lectus nisl bibendum.
               </p>
             </div>
-            <div className="flex justify-center xl:mt-[-100px] mt-10 mb-10 lg:mx-20">
+            <div className="flex justify-center lg:mx-20 mb-10 lg:mb-0">
               <Image
                 width={1400}
                 height={1200}
-                src="/assets/images/main-img-cisco.svg"
+                src="/assets/images/main-img-cisco1.png"
                 alt="..."
               />
             </div>
@@ -116,7 +129,7 @@ const NetworkingPage = () => {
             </div>
             <div className="py-12 sm:py-20">
               <div className="xl:max-w-5xl mx-auto">
-                <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                   {serviceList.map((item, index) => (
                     <li key={`contact-${index}`}>
                       <ServiceCardSimple items={item} />
