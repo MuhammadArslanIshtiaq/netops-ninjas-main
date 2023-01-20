@@ -21,21 +21,21 @@ const serviceList = [
     iconUrl2: "/assets/icons/cisco-active.svg",
     title: "Aruba",
     description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "#",
+    link: "/networking/aruba",
   },
   {
     iconUrl: "/assets/icons/aruba.svg",
     iconUrl2: "/assets/icons/cisco-active.svg",
     title: "Extreme",
     description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "#",
+    link: "/networking/extreme",
   },
   {
     iconUrl: "/assets/icons/aruba.svg",
     iconUrl2: "/assets/icons/cisco-active.svg",
     title: "Juniper",
     description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "#",
+    link: "/networking/juniper",
   },
 ];
 
