@@ -14,39 +14,39 @@ const servicesList = [
     iconUrl: "/assets/icons/az-06.png",
     title: "Infrastructure",
     description: `End-to-end payments and financial management in a single solution. Meet the right platform.`,
-    link: "#",
+    link: "/infrastructure",
   },
   {
     iconUrl: "/assets/icons/n2-01.png",
     title: "Clouds",
     description: `End-to-end payments and financial management in a single solution. Meet the right platform.`,
-    link: "#",
+    link: "/clouds",
   },
   {
     iconUrl: "/assets/icons/n3-01.png",
     title: "Firewalls",
     description: `End-to-end payments and financial management in a single solution. Meet the right platform.`,
-    link: "#",
+    link: "/firewalls",
   },
   {
     iconUrl: "/assets/icons/rt-06.png",
     title: "UI/UX Services",
     description: `End-to-end payments and financial management in a single solution. Meet the right platform.`,
-    link: "#",
+    link: "/ui-ux",
   },
 
   {
     iconUrl: "/assets/icons/xc-06.png",
     title: "Digital Marketing Services",
     description: `End-to-end payments and financial management in a single solution. Meet the right platform.`,
-    link: "#",
+    link: "/digital-marketing",
   },
 
   {
     iconUrl: "/assets/icons/n5-01.png",
     title: "Quality Assurance",
     description: `End-to-end payments and financial management in a single solution. Meet the right platform.`,
-    link: "#",
+    link: "/quality-assurance",
   },
 ];
 

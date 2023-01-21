@@ -5,37 +5,25 @@ import React from "react";
 import CtaSection from "../../components/sections/CtaSection";
 import Container from "../../components/utils/Container";
 import { ArrowFullTwoIcon, UploadIcon } from "../../components/utils/Icons";
-import ServiceDetailCard from "../../components/cards/ServiceDetailCard";
+import ServiceCardSimple from "../../components/cards/ServiceCardSimple";
 import TestimonialSection from "../../components/sections/TestimonialSection";
 
 const serviceList = [
   {
-    iconUrl: "/assets/icons/icon-cisco.png",
-    iconUrl2: "/assets/icons/icon-cisco-active.png",
-    title: "Cisco",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "/networking/cisco",
+    title: "Mobile Apps",
+    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino. Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
   },
   {
-    iconUrl: "/assets/icons/icon-aruba.png",
-    iconUrl2: "/assets/icons/icon-aruba-active.png",
-    title: "Aruba",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "/networking/aruba",
+    title: "Websites",
+    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino. Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
   },
   {
-    iconUrl: "/assets/icons/icon-extreme.png",
-    iconUrl2: "/assets/icons/icon-extreme-active.png",
-    title: "Extreme",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "/networking/extreme",
+    title: "Dashboards",
+    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino. Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
   },
   {
-    iconUrl: "/assets/icons/icon-juniper.png",
-    iconUrl2: "/assets/icons/icon-juniper-active.png",
-    title: "Juniper",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "/networking/juniper",
+    title: "Branding",
+    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino. Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
   },
 ];
 
@@ -43,7 +31,7 @@ const NetworkingPage = () => {
   return (
     <>
       <Head>
-        <title>Networking - Netops Ninjas</title>
+        <title>UI/UX - Netops Ninjas</title>
       </Head>
       <main className="bg-section">
         <section className="relative bg-section text-white py-12 sm:py-20">
@@ -71,7 +59,7 @@ const NetworkingPage = () => {
                 <div className="order-first lg:order-last sm:py-16 lg:py-0 mx-auto">
                   <div className="min-h-[25rem] sm:min-h-[37.5rem] lg:min-h-[43.75rem] h-full relative pt-24">
                     <Image
-                      src="/assets/images/feature-img-networking.png"
+                      src="/assets/images/feature-img-ui-ux.png"
                       width={785}
                       height={785}
                       alt="..."
@@ -102,7 +90,7 @@ const NetworkingPage = () => {
                 <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                   {serviceList.map((item, index) => (
                     <li key={`contact-${index}`}>
-                      <ServiceDetailCard items={item} />
+                      <ServiceCardSimple items={item} />
                     </li>
                   ))}
                 </ul>

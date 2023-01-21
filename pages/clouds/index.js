@@ -10,32 +10,25 @@ import TestimonialSection from "../../components/sections/TestimonialSection";
 
 const serviceList = [
   {
-    iconUrl: "/assets/icons/icon-cisco.png",
-    iconUrl2: "/assets/icons/icon-cisco-active.png",
-    title: "Cisco",
+    iconUrl: "/assets/icons/icon-azure.png",
+    iconUrl2: "/assets/icons/icon-azure-active.png",
+    title: "Azure",
     description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "/networking/cisco",
+    link: "/clouds/azure",
   },
   {
-    iconUrl: "/assets/icons/icon-aruba.png",
-    iconUrl2: "/assets/icons/icon-aruba-active.png",
-    title: "Aruba",
+    iconUrl: "/assets/icons/icon-aws.png",
+    iconUrl2: "/assets/icons/icon-aws-active.png",
+    title: "AWS",
     description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "/networking/aruba",
+    link: "/clouds/aws",
   },
   {
-    iconUrl: "/assets/icons/icon-extreme.png",
-    iconUrl2: "/assets/icons/icon-extreme-active.png",
-    title: "Extreme",
+    iconUrl: "/assets/icons/icon-gcp.png",
+    iconUrl2: "/assets/icons/icon-gcp-active.png",
+    title: "GCP",
     description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "/networking/extreme",
-  },
-  {
-    iconUrl: "/assets/icons/icon-juniper.png",
-    iconUrl2: "/assets/icons/icon-juniper-active.png",
-    title: "Juniper",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "/networking/juniper",
+    link: "/clouds/gcp",
   },
 ];
 
@@ -43,7 +36,7 @@ const NetworkingPage = () => {
   return (
     <>
       <Head>
-        <title>Networking - Netops Ninjas</title>
+        <title>Clouds - Netops Ninjas</title>
       </Head>
       <main className="bg-section">
         <section className="relative bg-section text-white py-12 sm:py-20">

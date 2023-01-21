@@ -10,32 +10,32 @@ import TestimonialSection from "../../components/sections/TestimonialSection";
 
 const serviceList = [
   {
-    iconUrl: "/assets/icons/icon-cisco.png",
-    iconUrl2: "/assets/icons/icon-cisco-active.png",
-    title: "Cisco",
+    iconUrl: "/assets/icons/icon-fortinet.png",
+    iconUrl2: "/assets/icons/icon-fortinet-active.png",
+    title: "Fortinet",
     description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "/networking/cisco",
+    link: "/firewalls/fortinet",
   },
   {
-    iconUrl: "/assets/icons/icon-aruba.png",
-    iconUrl2: "/assets/icons/icon-aruba-active.png",
-    title: "Aruba",
+    iconUrl: "/assets/icons/icon-cisco-asa.png",
+    iconUrl2: "/assets/icons/icon-cisco-asa-active.png",
+    title: "Cisco ASA",
     description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "/networking/aruba",
+    link: "/firewalls/cisco-asa",
   },
   {
-    iconUrl: "/assets/icons/icon-extreme.png",
-    iconUrl2: "/assets/icons/icon-extreme-active.png",
-    title: "Extreme",
+    iconUrl: "/assets/icons/icon-checkpoint.png",
+    iconUrl2: "/assets/icons/icon-checkpoint-active.png",
+    title: "Checkpoint",
     description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "/networking/extreme",
+    link: "/firewalls/checkpoint",
   },
   {
-    iconUrl: "/assets/icons/icon-juniper.png",
-    iconUrl2: "/assets/icons/icon-juniper-active.png",
-    title: "Juniper",
+    iconUrl: "/assets/icons/icon-paloalto.png",
+    iconUrl2: "/assets/icons/icon-paloalto-active.png",
+    title: "Palo Alto",
     description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "/networking/juniper",
+    link: "/firewalls/palo-alto",
   },
 ];
 
