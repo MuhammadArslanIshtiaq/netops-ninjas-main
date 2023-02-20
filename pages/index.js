@@ -1,7 +1,7 @@
 import Head from "next/head";
 import AboutSection from "../components/sections/AboutSection";
 import CtaSection from "../components/sections/CtaSection";
-import HeroSection from "../components/sections/HeroSection";
+import HeroSectionComingSoon from "../components/sections/HeroSectionComingSoon";
 import OurClientsSection from "../components/sections/OurClientsSection";
 import TestimonialSection from "../components/sections/TestimonialSection";
 import WhatWeDoSection from "../components/sections/WhatWeDoSection";
@@ -14,12 +14,7 @@ export default function Home() {
         <title>Home - Netops Ninjas</title>
       </Head>
       <main>
-        <HeroSection />
-        <WhatWeDoSection />
-        <AboutSection />
-        <WhyNetopsSection />
-        <TestimonialSection />
-        <CtaSection />
+        <HeroSectionComingSoon />
       </main>
     </>
   );
