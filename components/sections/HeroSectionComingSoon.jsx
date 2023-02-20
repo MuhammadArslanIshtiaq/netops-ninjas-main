@@ -117,6 +117,7 @@ const HeroSection = () => {
             <p className="text-lg md:text-2xl font-DMSans font-normal max-w-xl mx-auto mb-4">
               Something really cool is Coming Soon. Stay Tuned!
             </p>
+            <p className="text-lg font-bold">Contact us @</p>
             <p>Support@netopsninjas.com | Sales@netopsninjas.com</p>
           </div>
         </Container>
