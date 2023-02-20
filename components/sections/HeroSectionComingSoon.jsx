@@ -103,7 +103,7 @@ const HeroSection = () => {
       <div className="relative z-10 py-10 sm:py-32 md:py-44 lg:py-52 text-white">
         <Container>
           <div className="flex justify-center">
-            <Image
+            <img
               width={480}
               height={260}
               src="/assets/images/logo.gif"
@@ -114,9 +114,10 @@ const HeroSection = () => {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-suiGeneris font-normal mb-10">
               Website Under Construction
             </h1>
-            <p className="text-lg md:text-2xl font-DMSans font-normal max-w-xl mx-auto mb-12">
+            <p className="text-lg md:text-2xl font-DMSans font-normal max-w-xl mx-auto mb-4">
               Something really cool is Coming Soon. Stay Tuned!
             </p>
+            <p>Support@netopsninjas.com | Sales@netopsninjas.com</p>
           </div>
         </Container>
       </div>
