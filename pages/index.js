@@ -14,9 +14,9 @@ export default function Home() {
         <title>Home - Netops Ninjas</title>
       </Head>
       <main>
-        <HeroSection />
-        <AboutSection />
+       <HeroSection />
         <WhatWeDoSection />
+        <AboutSection />
         <WhyNetopsSection />
         <OurClientsSection />
         <TestimonialSection />
