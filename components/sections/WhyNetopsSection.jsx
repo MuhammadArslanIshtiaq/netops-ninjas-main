@@ -6,21 +6,21 @@ import Container from "../utils/Container";
 const netopCards = [
   {
     iconUrl: "/assets/icons/card.png",
-    title: "Digital Workplace",
+    title: "Experience",
     description:
-      "Lorem ipsum dolor sit amet consect Tellus nibh ut tincidunt feugiat quam nullam qulla.",
+      "We have more than 15 Years of Experience in the Field",
   },
   {
     iconUrl: "/assets/icons/pie-chart.png",
-    title: "Intelligent Network Infrastructure",
+    title: "Team",
     description:
-      "Lorem ipsum dolor sit amet consect Tellus nibh ut tincidunt feugiat quam nullam qulla.",
+      "Fortunate to have fully organised & certified team",
   },
   {
     iconUrl: "/assets/icons/security.png",
-    title: "Security",
+    title: "360 Solutions",
     description:
-      "Lorem ipsum dolor sit amet consect Tellus nibh ut tincidunt feugiat quam nullam qulla.",
+      "We offer complete 360 Degree IT Solutions worldwide",
   },
 ];
 
@@ -43,7 +43,7 @@ const WhyNetopsSection = () => {
                 Why netops ninjas
               </h5>
               <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight mb-24">
-                Lorem ipsum dolor sit amet consictuor itsu.
+                Why Businesses Recommend Netops Ninjas?
               </h2>
             </div>
             <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-16 gap-y-24 md:gap-y-2 lg:gap-16 pb-20 xl:px-32">
