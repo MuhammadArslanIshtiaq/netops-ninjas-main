@@ -30,7 +30,7 @@ const ContactSection = () => {
                         type="text"
                         id="FirstName"
                         name="FirstName"
-                        placeholder="John"
+                        placeholder=""
                         required
                       />
                     </div>
@@ -48,7 +48,7 @@ const ContactSection = () => {
                         type="text"
                         id="LastName"
                         name="LastName"
-                        placeholder="Doe"
+                        placeholder=""
                         required
                       />
                     </div>
@@ -66,7 +66,7 @@ const ContactSection = () => {
                         type="email"
                         id="Email"
                         name="Email"
-                        placeholder="Johndoe@mail.com"
+                        placeholder=""
                         required
                       />
                     </div>
@@ -92,6 +92,7 @@ const ContactSection = () => {
                             className="h-full rounded-l-lg bg-info border-0 border-r border-gray-500 py-0 pl-3 pr-7 sm:text-sm"
                           >
                             <option>US</option>
+                            <option>UK</option>
                             <option>CA</option>
                             <option>EU</option>
                           </select>
@@ -101,7 +102,7 @@ const ContactSection = () => {
                           name="phone-number"
                           id="phone-number"
                           className="block w-full rounded-lg py-5 pl-20 bg-info border border-gray-500 focus:border-l-pink-500 focus:border-t-pink-500 focus:border-r-secondary focus:border-b-secondary  focus-visible:outline-0 placeholder:text-gray-300"
-                          placeholder="+92 (000) 000 0000"
+                          placeholder=""
                         />
                       </div>
                     </div>
