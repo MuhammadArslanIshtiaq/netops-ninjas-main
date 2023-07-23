@@ -7,45 +7,45 @@ const servicesList = [
   {
     iconUrl: "/assets/icons/as-06.svg",
     title: "Networking",
-    description: `End-to-end payments and financial management in a single solution. Meet the right platform.`,
+    description: `Enhance your connectivity and efficiency with our reliable networking solutions`,
     link: "/networking",
   },
   {
     iconUrl: "/assets/icons/az-06.png",
     title: "Infrastructure",
-    description: `End-to-end payments and financial management in a single solution. Meet the right platform.`,
+    description: `Optimise your operations with robust infrastructure tailored to your business needs`,
     link: "/infrastructure",
   },
   {
     iconUrl: "/assets/icons/n2-01.png",
     title: "Clouds",
-    description: `End-to-end payments and financial management in a single solution. Meet the right platform.`,
+    description: `Harness the power of cloud solutions for seamless scalability and flexibility`,
     link: "/clouds",
   },
   {
     iconUrl: "/assets/icons/n3-01.png",
     title: "Firewalls",
-    description: `End-to-end payments and financial management in a single solution. Meet the right platform.`,
+    description: `Protect your digital assets with state-of-the-art firewalls—safeguard your business today`,
     link: "/firewalls",
   },
   {
     iconUrl: "/assets/icons/rt-06.png",
     title: "UI/UX Services",
-    description: `End-to-end payments and financial management in a single solution. Meet the right platform.`,
+    description: `Elevate user experiences with intuitive UI/UX designs—make a lasting impression`,
     link: "/ui-ux",
   },
 
   {
     iconUrl: "/assets/icons/xc-06.png",
     title: "Digital Marketing Services",
-    description: `End-to-end payments and financial management in a single solution. Meet the right platform.`,
+    description: `Drive growth and reach your target audience with our comprehensive digital marketing services`,
     link: "/digital-marketing",
   },
 
   {
     iconUrl: "/assets/icons/n5-01.png",
     title: "Quality Assurance",
-    description: `End-to-end payments and financial management in a single solution. Meet the right platform.`,
+    description: `Ensure superior quality and reliability with our rigorous quality assurance measures`,
     link: "/quality-assurance",
   },
 ];
