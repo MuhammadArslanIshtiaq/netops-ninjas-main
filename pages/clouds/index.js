@@ -13,7 +13,7 @@ const serviceList = [
     iconUrl: "/assets/icons/icon-azure.png",
     iconUrl2: "/assets/icons/icon-azure-active.png",
     title: "Azure",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    description: `Unlock limitless possibilities with Azure – embrace the cloud and transform your business with Microsoft's powerful platform.`,
     link: "/clouds/azure",
   },
   {
