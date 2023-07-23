@@ -66,11 +66,10 @@ const WhatWeDoSection = () => {
               What we do
             </h5>
             <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-bold leading-tight sm:leading-tight xl:leading-tight">
-              Lorem Ipsum Dolor Sit Amet Consectutor Matahari Stella le aiyang
+              In Digital Era, IT Services are redefining Business Success & Growth: Its Your Turn to Experience it!
             </h2>
             <p className="mt-6 max-w-xl mx-auto text-[1.375rem] text-gray-200">
-              While we can customize your plan to suit your needs, most clients
-              schedule regular services:
+              Check out what we are offering, result-oriented, proven, timely with guaranteed business growth 
             </p>
           </div>
 
