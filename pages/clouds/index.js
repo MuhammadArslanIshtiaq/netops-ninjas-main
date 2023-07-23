@@ -45,13 +45,13 @@ const NetworkingPage = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 <div className="mb-24 lg:mb-0 text-center lg:text-left">
                   <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight mb-6">
-                    We do the IT: you <br />
-                    grow your Business
+                    Soar to the Cloud: Embrace the Future of  <br />
+                    Computing with Cloud Solutions
                   </h2>
                   <p className="mb-16 lg:max-w-xl text-[1.375rem] text-gray-200">
-                    Lorem ipsum dolor sit amet consectetur. Justo in rho orci
-                    velit placerat enim. Convallis vitae enim vitae mauris
-                    cursus vitae urna amet.
+                    Experience the agility, scalability, and cost-efficiency 
+                    of cloud computing – let us guide you in harnessing the 
+                    power of the cloud solutions
                   </p>
                   <Link
                     href="/contact"
