@@ -9,11 +9,10 @@ const ContactSection = () => {
           <li>
             <div>
               <h2 className="text-secondary capitalize text-3xl sm:text-4xl lg:text-[2.5rem] font-semibold leading-tight sm:leading-tight xl:leading-tight mb-4">
-                Contact Us
+                Want to Talk with our Spokesperson?
               </h2>
               <p className="mb-16 lg:max-w-xl text-[1.375rem] text-gray-300">
-                Lorem ipsum dolor sit amet consectetur. Justo in rho orci velit
-                placerat enim.
+                Get connected with us and let us explain you how our services can be your digital strengths 
               </p>
               <form noValidate>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-8">
@@ -140,8 +139,13 @@ const ContactSection = () => {
                         <option selected disabled value="-">
                           Please Select
                         </option>
-                        <option value="Canada">Canada</option>
-                        <option value="Mexico">Mexico</option>
+                        <option value="Networking">Networking</option>
+                        <option value="Infrastructure">Infrastructure</option>
+                        <option value="Cloud">Cloud</option>
+                        <option value="Firewall">Firewall</option>
+                        <option value="Quality Assurance">Quality Assurance</option>
+                        <option value="UI/UX">UI/UX</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
                       </select>
                     </div>
                   </li>
