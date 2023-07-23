@@ -13,28 +13,28 @@ const serviceList = [
     iconUrl: "/assets/icons/icon-cisco.png",
     iconUrl2: "/assets/icons/icon-cisco-active.png",
     title: "Cisco",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    description: `Unlock seamless connectivity and network performance with our Cisco solutions – experience the power of cutting-edge technology.`,
     link: "/networking/cisco",
   },
   {
     iconUrl: "/assets/icons/icon-aruba.png",
     iconUrl2: "/assets/icons/icon-aruba-active.png",
     title: "Aruba",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    description: `Experience secure and reliable wireless networking with Aruba – revolutionize your connectivity.`,
     link: "/networking/aruba",
   },
   {
     iconUrl: "/assets/icons/icon-extreme.png",
     iconUrl2: "/assets/icons/icon-extreme-active.png",
     title: "Extreme",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    description: `Maximize your network efficiency with Extreme – elevate your digital infrastructure to new heights.`,
     link: "/networking/extreme",
   },
   {
     iconUrl: "/assets/icons/icon-juniper.png",
     iconUrl2: "/assets/icons/icon-juniper-active.png",
     title: "Juniper",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    description: `Discover the power of Juniper's network solutions – achieve unparalleled performance and reliability.`,
     link: "/networking/juniper",
   },
 ];
@@ -52,13 +52,13 @@ const NetworkingPage = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 <div className="mb-24 lg:mb-0 text-center lg:text-left">
                   <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight mb-6">
-                    We do the IT: you <br />
-                    grow your Business
+                    Unleash the Power of Networking for <br />
+                    Your Business with our advanced solutions
                   </h2>
                   <p className="mb-16 lg:max-w-xl text-[1.375rem] text-gray-200">
-                    Lorem ipsum dolor sit amet consectetur. Justo in rho orci
-                    velit placerat enim. Convallis vitae enim vitae mauris
-                    cursus vitae urna amet.
+                    Connect with us today to elevate your network infrastructure 
+                    and unlock seamless communication, reliability, and scalability 
+                    for your business
                   </p>
                   <Link
                     href="/contact"
