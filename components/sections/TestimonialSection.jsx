@@ -9,25 +9,26 @@ import { Autoplay } from "swiper";
 
 const testimonialList = [
   {
-    name: "Judith Black",
-    role: "CEO, Workcation",
+    name: "John Kaberna",
+    role: "CEO, Avallation,LLC",
     stars: 5,
-    review: `Is be upon sang fond must shew. Really boy law county she unable her 
-    sister. Feet you off its like like six. Among sex are leave law built now.`,
+    review: `We have complete peace of mind knowing that our business is protected by their top-notch security solutions and firewalls. 
+    Their team understands the importance of safeguarding our sensitive data, and their robust measures have kept us safe from cyber threats. 
+    Highly recommended!`,
   },
   {
-    name: "Judith Black",
-    role: "CEO, Workcation",
-    stars: 3,
-    review: `Is be upon sang fond must shew. Really boy law county she unable her 
-    sister. Feet you off its like like six. Among sex are leave law built now.`,
+    name: "Mohammed Rehman",
+    role: "General Manager UK, AiFi",
+    stars: 5,
+    review: `Their IT support team has been a lifesaver for our business. They are prompt, knowledgeable, and always go above and beyond 
+    to resolve our technical issues. Highly recommend their exceptional IT solutions!`,
   },
   {
-    name: "Judith Black",
-    role: "CEO, Workcation",
-    stars: 2,
-    review: `Is be upon sang fond must shew. Really boy law county she unable her 
-    sister. Feet you off its like like six. Among sex are leave law built now.`,
+    name: "Chris Phillips",
+    role: "Manager, TEC Solutions",
+    stars: 5,
+    review: `Working with their digital marketing team has been a game-changer for our business. They crafted a compelling online strategy that significantly boosted 
+    our brand visibility and drove valuable leads. We couldn't be happier with the results!`,
   },
 ];
 
