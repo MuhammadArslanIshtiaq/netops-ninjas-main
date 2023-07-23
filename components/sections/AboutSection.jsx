@@ -15,12 +15,12 @@ const AboutSection = () => {
                 About netops ninjas
               </h5>
               <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight mb-12">
-                Engage, Discover, <br /> Realise & Evolve
+                We Make IT Solutions Businesses Strength
               </h2>
               <p className="mb-16 lg:max-w-xl text-[1.375rem] text-gray-200">
-                Lorem ipsum dolor sit amet consectetur. Justo in rho orci velit
-                placerat enim. Convallis vitae enim vitae mauris cursus vitae
-                urna amet.
+                Over the years, we are assisting businesses to strengthen their IT structures, becoming more organised,
+                solution-oriented and digitally more visible. Netops Ninjas is fortunate to have most experienced team,
+                multi-cultural and promoting a true workforce diversity.
               </p>
               <Link
                 href="#"
