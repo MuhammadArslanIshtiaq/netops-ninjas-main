@@ -100,7 +100,7 @@ const SupportPage = () => {
                         type="text"
                         id="FirstName"
                         name="FirstName"
-                        placeholder="John"
+                        placeholder=""
                         required
                       />
                     </div>
@@ -118,7 +118,7 @@ const SupportPage = () => {
                         type="text"
                         id="LastName"
                         name="LastName"
-                        placeholder="Doe"
+                        placeholder=""
                         required
                       />
                     </div>
@@ -145,6 +145,7 @@ const SupportPage = () => {
                             className="h-full rounded-l-lg bg-info border-0 border-r border-gray-500 py-0 pl-3 pr-7 sm:text-sm"
                           >
                             <option>US</option>
+                            <option>UK</option>
                             <option>CA</option>
                             <option>EU</option>
                           </select>
@@ -154,7 +155,7 @@ const SupportPage = () => {
                           name="phone-number"
                           id="phone-number"
                           className="block w-full rounded-lg py-5 pl-20 bg-info border border-gray-500 focus:border-l-pink-500 focus:border-t-pink-500 focus:border-r-secondary focus:border-b-secondary  focus-visible:outline-0 placeholder:text-gray-300"
-                          placeholder="+92 (000) 000 0000"
+                          placeholder=""
                         />
                       </div>
                     </div>
@@ -175,8 +176,13 @@ const SupportPage = () => {
                         <option selected disabled value="-">
                           Please Select
                         </option>
-                        <option value="Canada">Canada</option>
-                        <option value="Mexico">Mexico</option>
+                        <option value="Networking">Networking</option>
+                        <option value="Infrastructure">Infrastructure</option>
+                        <option value="Cloud">Cloud</option>
+                        <option value="Firewall">Firewall</option>
+                        <option value="Quality Assurance">Quality Assurance</option>
+                        <option value="UI/UX">UI/UX</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
                       </select>
                     </div>
                   </li>
@@ -196,8 +202,13 @@ const SupportPage = () => {
                         <option selected disabled value="-">
                           Please Select
                         </option>
-                        <option value="Canada">Canada</option>
-                        <option value="Mexico">Mexico</option>
+                        <option value="Networking">Networking</option>
+                        <option value="Infrastructure">Infrastructure</option>
+                        <option value="Cloud">Cloud</option>
+                        <option value="Firewall">Firewall</option>
+                        <option value="Quality Assurance">Quality Assurance</option>
+                        <option value="UI/UX">UI/UX</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
                       </select>
                     </div>
                   </li>
