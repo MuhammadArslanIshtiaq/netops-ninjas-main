@@ -176,13 +176,8 @@ const SupportPage = () => {
                         <option selected disabled value="-">
                           Please Select
                         </option>
-                        <option value="Networking">Networking</option>
-                        <option value="Infrastructure">Infrastructure</option>
-                        <option value="Cloud">Cloud</option>
-                        <option value="Firewall">Firewall</option>
-                        <option value="Quality Assurance">Quality Assurance</option>
-                        <option value="UI/UX">UI/UX</option>
-                        <option value="Digital Marketing">Digital Marketing</option>
+                        <option value="Support">Support</option>
+                        <option value="Sales">Sales</option>
                       </select>
                     </div>
                   </li>
