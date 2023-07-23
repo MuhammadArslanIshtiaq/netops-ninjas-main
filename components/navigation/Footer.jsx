@@ -120,18 +120,18 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-base font-bold text-white">Our Office</h3>
+                <h3 className="text-base font-bold text-white">Our Offices</h3>
                 <ul role="list" className="mt-4 space-y-4">
                   <li>
                     <p className="text-sm leading-relaxed text-gray-300">
-                      Lorem Ipsum Dolor Jl. Griya Permata Hijau no D1
-                      Purwomartani Kalasan 543881
+                      NetOps Ninjas Ltd,
+                      Clevedon, United Kingdom
                     </p>
                   </li>
                   <li>
                     <p className="text-sm leading-relaxed text-gray-300">
-                      Lorem Ipsum Dolor 35 Mandalay Road 13–37 Mandalay Towers
-                      Singapore 308215
+                      NetOps Ninjas Ltd, 
+                      Islamabad, Pakistan
                     </p>
                   </li>
                 </ul>
