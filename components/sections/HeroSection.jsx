@@ -104,12 +104,12 @@ const HeroSection = () => {
         <Container>
           <div className="text-center mx-auto max-w-2xl">
             <h1 className="text-2xl sm:text-5xl lg:text-6xl font-suiGeneris font-normal mb-10">
-              We do the IT: you grow your{" "}
-              <span className="text-line">Business</span>
+              Let Us Fuse Your Business with Advanced IT{" "}
+              <span className="text-line">Solutions</span>
             </h1>
             <p className="text-lg md:text-2xl font-DMSans font-normal max-w-xl mx-auto mb-12">
-              Lorem ipsum dolor sit amet consectetur. Tempus vestibulum interdum
-              scelerisque dui in est orci lectus nisl bibendum.
+              Experience the power of advanced IT solutions as we fuse them seamlessly with your business, 
+              unlocking new possibilities and driving growth.
             </p>
             <Link
               href="#"
