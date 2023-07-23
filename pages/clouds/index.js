@@ -20,14 +20,14 @@ const serviceList = [
     iconUrl: "/assets/icons/icon-aws.png",
     iconUrl2: "/assets/icons/icon-aws-active.png",
     title: "AWS",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    description: `Experience the unparalleled scalability and innovation of AWS – harness the full potential of the cloud.`,
     link: "/clouds/aws",
   },
   {
     iconUrl: "/assets/icons/icon-gcp.png",
     iconUrl2: "/assets/icons/icon-gcp-active.png",
     title: "GCP",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    description: `Elevate your business with Google Cloud Platform – unlock agility, scalability, and advanced cloud services.`,
     link: "/clouds/gcp",
   },
 ];
