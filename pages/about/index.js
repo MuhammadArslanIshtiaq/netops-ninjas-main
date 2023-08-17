@@ -75,11 +75,11 @@ const About = () => {
                 About us
               </h5>
               <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-bold leading-tight sm:leading-tight xl:leading-tight">
-                Lorem Ipsum Dolor Sit Amet Consectutor Matahari Stella le aiyang
+                We are a 360 Degree IT Solution Company, making Technology your Business Assets
               </h2>
               <p className="mt-6 max-w-xl mx-auto text-[1.375rem] text-gray-200">
-                While we can customize your plan to suit your needs, most
-                clients schedule regular services:
+                We offer comprehensive IT solutions that cover all aspects of your business, transforming technology into valuable assets for your business success. 
+                Experience the power of our 360-degree IT approach and unlock the full potential of your business.
               </p>
             </div>
           </Container>
