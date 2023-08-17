@@ -82,8 +82,8 @@ export default function Footer() {
                 <Image fill src="/assets/images/logo-2.svg" alt=".." />
               </Link>
               <p className="text-lg leading-relaxed text-gray-300">
-                Lorem ipsum dolor sit amet consectetur. Odio est id sit integer
-                dictum quis tempus. Vitae pellas adolor interdum.
+                We are a leading 360 Degree IT Support & Digital Marketing agency,
+                always providing effective, result-oriented, and on-time solutions.
               </p>
             </div>
 
