@@ -25,12 +25,12 @@ const SupportPage = () => {
                     24/7 Support
                   </h5>
                   <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-bold leading-tight sm:leading-tight xl:leading-tight mb-6">
-                    Get Our Help Fast
+                    Our team is available 24/7
                   </h2>
                   <p className="mb-16 lg:max-w-xl text-[1.375rem] text-gray-200">
-                    Lorem ipsum dolor sit amet consectetur. Justo in rho orci
-                    velit placerat enim. Convallis vitae enim vitae mauris
-                    cursus vitae urna amet.
+                    Our team is dedicated to delivering round-the-clock IT support and innovative 
+                    solutions to meet your needs. Count on us anytime, day or night, 
+                    to keep your systems running smoothly.
                   </p>
                   <Link
                     href="/contact"
