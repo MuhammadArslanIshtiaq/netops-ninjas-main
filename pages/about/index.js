@@ -107,15 +107,15 @@ const About = () => {
           <Container>
             <div className="my-20 max-w-4xl mx-auto text-center pt-2">
               <h5 className="inline-block text-lg font-extrabold uppercase text-gradient mb-3">
-                Unlock your true business's potential with our 360-degree IT Solutions - Partner with us today!
+                About us
               </h5>
               <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-bold leading-tight sm:leading-tight xl:leading-tight">
-                Lorem Ipsum Dolor Sit Amet Consectutor Matahari Stella le aiyang
+                Unlock your true business's potential with our 360-degree IT Solutions - Partner with us today!
               </h2>
               <p className="mt-6 max-w-xl mx-auto text-[1.375rem] text-gray-200">
                 From IT infrastructure to cybersecurity, digital marketing to 
                 cloud solutions, our expertise covers every aspect of your technology 
-                needs.vWith a customer-centric approach and a team of experienced professionals, 
+                needs.With a customer-centric approach and a team of experienced professionals, 
                 we deliver tailored solutions to help businesses thrive in the digital era.
               </p>
             </div>
