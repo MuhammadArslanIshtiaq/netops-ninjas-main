@@ -46,18 +46,16 @@ const features = [
 const supportLinks = [
   {
     number: "400+",
-    title: "Lorem ipsum dolor",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    title: "Plus Clients Served",
   },
   {
     number: "600%",
-    title: "Lorem ipsum dolor",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    title: "ROI Generated",
   },
   {
     number: "20K",
-    title: "Lorem ipsum dolor",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    title: "Problems Troubleshoot",
+    
   },
 ];
 
