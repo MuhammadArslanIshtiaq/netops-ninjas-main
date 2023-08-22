@@ -76,7 +76,7 @@ const SupportPage = () => {
           <Container>
             <div className="mb-12 max-w-4xl mx-auto text-center pt-2">
               <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight">
-                Lorem Ipsum Dolor Sit Amet Consisc
+                Have an Issue? Talk with our experts
               </h2>
               <p className="mt-6 text-[1.375rem] text-gray-400">
                 Lorem ipsum dolor sit amet consectetur. Justo in rho orci velit
