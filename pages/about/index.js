@@ -110,7 +110,7 @@ const About = () => {
                 About us
               </h5>
               <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-bold leading-tight sm:leading-tight xl:leading-tight">
-                Unlock your true business's potential with our 360-degree IT Solutions - Partner with us today!
+                Unlock your true business&apos;s potential with our 360-degree IT Solutions - Partner with us today!
               </h2>
               <p className="mt-6 max-w-xl mx-auto text-[1.375rem] text-gray-200">
                 From IT infrastructure to cybersecurity, digital marketing to 
