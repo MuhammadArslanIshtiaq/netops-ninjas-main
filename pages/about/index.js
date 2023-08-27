@@ -5,36 +5,6 @@ import Container from "../../components/utils/Container";
 import CtaSection from "../../components/sections/CtaSection";
 
 const features = [
-  {
-    name: "Competitive exchange rates",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    iconUrl: "/assets/icons/about-icon-01.svg",
-  },
-  {
-    name: "No hidden fees",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    iconUrl: "/assets/icons/about-icon-02.svg",
-  },
-  {
-    name: "Transfers are instant",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    iconUrl: "/assets/icons/about-icon-03.svg",
-  },
-  {
-    name: "Competitive exchange rates",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    iconUrl: "/assets/icons/about-icon-04.svg",
-  },
-{
-    name: "No hidden fees",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    iconUrl: "/assets/icons/about-icon-05.svg",
-  },
 ];
 
 const supportLinks = [
