@@ -35,12 +35,6 @@ const features = [
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
     iconUrl: "/assets/icons/about-icon-05.svg",
   },
-  {
-    name: "Transfers are instant",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    iconUrl: "/assets/icons/about-icon-06.svg",
-  },
 ];
 
 const supportLinks = [
