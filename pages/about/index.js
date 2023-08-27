@@ -46,6 +46,27 @@ const About = () => {
             </div>
           </Container>
         </section>
+        
+        <section className="bg-section text-white pt-12 sm:pt-20">
+          <Container>
+            <div className="my-20 max-w-4xl mx-auto text-center pt-2">
+              <h5 className="inline-block text-lg font-extrabold uppercase text-gradient mb-3">
+                Vision Statement
+              </h5>
+              <p className="mt-6 max-w-xl mx-auto text-[1.375rem] text-gray-200">
+                To be the leading provider of comprehensive IT solutions, transforming businesses through innovative technologies, exceptional services, and strategic partnerships.
+              </p>
+            </div>
+            <div className="my-20 max-w-4xl mx-auto text-center pt-2">
+              <h5 className="inline-block text-lg font-extrabold uppercase text-gradient mb-3">
+                Mission Statement
+              </h5>
+              <p className="mt-6 max-w-xl mx-auto text-[1.375rem] text-gray-200">
+                Our mission is to empower organizations with 360-degree IT solutions, leveraging cutting-edge technologies, expert guidance, and unparalleled customer support. We strive to enhance operational efficiency, drive digital transformation, and enable businesses to thrive in the ever-evolving digital landscape.
+              </p>
+            </div>
+          </Container>
+        </section>
 
         <section
           className="bg-about z-10 xl:mx-auto max-w-7xl px-12 py-24 lg:px-24 mx-10 rounded-[20px]"
