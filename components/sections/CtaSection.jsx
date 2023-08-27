@@ -15,7 +15,7 @@ const CtaSection = () => {
                   <span className="text-line red">Dolor sit Amet</span>
                 </h2>
                 <p className="text-md md:text-2xl font-semibold text-gray-900">
-                  Lorem Ipsum Dolor sit Amet Consictutor mullar acap
+                  Get connected with us and let us explain to you how our services can be your digital strengths
                 </p>
               </div>
               <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
