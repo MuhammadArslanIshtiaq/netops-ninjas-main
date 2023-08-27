@@ -25,7 +25,7 @@ const netopCards = [
 ];
 
 const brandList = [
-  { logoUrl: "/assets/images/b-logo-0.png" },
+  { logoUrl: "/assets/images/Avallation.png" },
   { logoUrl: "/assets/images/b-logo-1.png" },
   { logoUrl: "/assets/images/b-logo-2.png" },
   { logoUrl: "/assets/images/b-logo-3.png" },
