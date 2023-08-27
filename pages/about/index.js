@@ -42,26 +42,6 @@ const About = () => {
           </Container>
         </section>
 
-        <section
-          className="bg-about z-10 xl:mx-auto max-w-7xl px-12 py-24 lg:px-24 mx-10 rounded-[20px]"
-          aria-labelledby="contact-heading"
-        >
-          <div className="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-20 ">
-            {supportLinks.map((link) => (
-              <div
-                key={link.title}
-                className="flex flex-col rounded-2xl about-block shadow-xl"
-              >
-                <div className="relative flex-1 px-6 pt-16 pb-8 md:px-8 text-center text-white">
-                  <h3 className="text-6xl font-bold">{link.number}</h3>
-                  <h3 className="text-lg font-medium mt-4">{link.title}</h3>
-                  <p className="text-sm font-light mt-4">{link.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
         <section className="bg-section text-white pt-12 sm:pt-20">
           <Container>
             <div className="my-20 max-w-4xl mx-auto text-center pt-2">
@@ -87,7 +67,7 @@ const About = () => {
                     Comprehensive Expertise
                 </h5>
                 <h2 className="text-3xl font-bold leading-tight">
-                    Unlock your true business&apos;s potential with our 360-degree IT Solutions - Partner with us today!
+                    Unlock your true business potential with our 360-degree IT Solutions - Partner with us today!
                 </h2>
                 <p className="mt-6 text-[1.375rem] text-gray-200">
                     From IT infrastructure to cybersecurity, digital marketing to cloud solutions, our expertise covers every aspect of your technology needs. With a customer-centric approach and a team of experienced professionals, we deliver tailored solutions to help businesses thrive in the digital era.
@@ -96,10 +76,30 @@ const About = () => {
           </Container>
         </section>
 
+        <section
+          className="bg-about z-10 xl:mx-auto max-w-7xl px-12 py-24 lg:px-24 mx-10 rounded-[20px]"
+          aria-labelledby="contact-heading"
+        >
+          <div className="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-20 ">
+            {supportLinks.map((link) => (
+              <div
+                key={link.title}
+                className="flex flex-col rounded-2xl about-block shadow-xl"
+              >
+                <div className="relative flex-1 px-6 pt-16 pb-8 md:px-8 text-center text-white">
+                  <h3 className="text-6xl font-bold">{link.number}</h3>
+                  <h3 className="text-lg font-medium mt-4">{link.title}</h3>
+                  <p className="text-sm font-light mt-4">{link.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
         <CtaSection />
       </main>
     </>
   );
 };
 
-export default About;
+export default About
