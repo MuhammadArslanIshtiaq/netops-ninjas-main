@@ -36,7 +36,7 @@ const AboutSection = () => {
                 <Image
                   className="object-contain z-10"
                   fill
-                  src="/assets/images/about-image-0.png"
+                  src="/assets/images/about_us-02.png"
                   alt="..."
                 />
                 <span className="hidden lg:block absolute -bottom-16 left-[30%] -translate-x-1/2">
