@@ -29,12 +29,12 @@ const features = [
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
     iconUrl: "/assets/icons/about-icon-04.svg",
   },
- {/* {
+{
     name: "No hidden fees",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
     iconUrl: "/assets/icons/about-icon-05.svg",
-  },*/}
+  },
   {
     name: "Transfers are instant",
     description:
