@@ -50,7 +50,7 @@ const SupportPage = () => {
                     <Image
                       className="object-contain z-10 rounded-full"
                       fill
-                      src="/assets/images/hero-image-1.png"
+                      src="/assets/images/support-01.png"
                       alt="..."
                     />
                     <span className="hidden lg:block absolute -bottom-72 left-[25%] -translate-x-1/2">
