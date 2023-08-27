@@ -11,8 +11,8 @@ const CtaSection = () => {
             <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-24 lg:px-16">
               <div>
                 <h2 className="text-2xl md:text-4xl font-bold tracking-tight text-gray-900  mb-8">
-                  Lorem Ipsum{" "}
-                  <span className="text-line red">Dolor sit Amet</span>
+                  Want to Talk with{" "}
+                  <span className="text-line red">our Spokesperson?</span>
                 </h2>
                 <p className="text-md md:text-2xl font-semibold text-gray-900">
                   Get connected with us and let us explain to you how our services can be your digital strengths
