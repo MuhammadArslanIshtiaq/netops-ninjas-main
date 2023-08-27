@@ -79,9 +79,8 @@ const SupportPage = () => {
                 Have an Issue? Talk with our experts
               </h2>
               <p className="mt-6 text-[1.375rem] text-gray-400">
-                Lorem ipsum dolor sit amet consectetur. Justo in rho orci velit
-                placerat enim. Convallis vitae enim vitae mauris cursus vitae
-                urna amet.
+                Encountering a problem? Engage in a conversation with our skilled IT experts 
+                to get swift and effective solutions, practical and effective.
               </p>
             </div>
             <div className="mx-auto max-w-6xl">
