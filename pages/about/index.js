@@ -45,7 +45,7 @@ const About = () => {
         <section className="bg-section text-white pt-12 sm:pt-20">
           <Container>
             <div className="my-20 max-w-4xl mx-auto text-center pt-2">
-                <h5 className="text-lg font-extrabold uppercase text-gradient mb-3">
+                <h5 className="inline-block text-lg font-extrabold uppercase text-gradient mb-3">
                     Vision Statement
                 </h5>
                 <p className="mt-6 text-[1.375rem] text-gray-200">
@@ -54,7 +54,7 @@ const About = () => {
             </div>
 
             <div className="my-20 max-w-4xl mx-auto text-center pt-2">
-                <h5 className="text-lg font-extrabold uppercase text-gradient mb-3">
+                <h5 className="inline-block text-lg font-extrabold uppercase text-gradient mb-3">
                     Mission Statement
                 </h5>
                 <p className="mt-6 text-[1.375rem] text-gray-200">
@@ -63,11 +63,11 @@ const About = () => {
             </div>
 
             <div className="my-20 max-w-4xl mx-auto text-center pt-2">
-                <h5 className="text-lg font-extrabold uppercase text-gradient mb-3">
+                <h5 className="inline-block text-lg font-extrabold uppercase text-gradient mb-3">
                     Comprehensive Expertise
                 </h5>
                 <h2 className="text-3xl font-bold leading-tight">
-                    Unlock your true business potential with our 360-degree IT Solutions - Partner with us today!
+                    Unlock your true business's potential with our 360-degree IT Solutions - Partner with us today!
                 </h2>
                 <p className="mt-6 text-[1.375rem] text-gray-200">
                     From IT infrastructure to cybersecurity, digital marketing to cloud solutions, our expertise covers every aspect of your technology needs. With a customer-centric approach and a team of experienced professionals, we deliver tailored solutions to help businesses thrive in the digital era.
@@ -102,4 +102,4 @@ const About = () => {
   );
 };
 
-export default About
+export default About;
