@@ -25,8 +25,10 @@ const netopCards = [
 ];
 
 const brandList = [
+  
   { logoUrl: "/assets/images/Avallation.png" },
   { logoUrl: "/assets/images/Tec-S.png" },
+  { logoUrl: "/assets/images/outlook-energy.png" },
 ];
 
 const WhyNetopsSection = () => {
