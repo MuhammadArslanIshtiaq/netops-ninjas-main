@@ -44,16 +44,6 @@ const SupportPage = () => {
                     <span className="absolute z-20 h-full w-full scale-[1.15]">
                       <Image fill src="/assets/images/bg-image.svg" alt="..." />
                     </span>
-                    <span className="absolute z-20 top-8 lg:top-28 left-5 lg:left-8 h-20 w-20">
-                      <Image
-                        fill
-                        src="/assets/images/icon-24hrs.svg"
-                        alt="..."
-                      />
-                    </span>
-                    <span className="absolute z-20 bottom-0 lg:bottom-24 right-0 lg:-right-12 h-40 w-40">
-                      <Image fill src="/assets/images/icon-0.svg" alt="..." />
-                    </span>
                     {/* == */}
                     <span className="absolute w-72 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 shadow-blue-overlay-1" />
                     <span className="absolute w-72 bottom-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 shadow-pink-overlay-1" />
