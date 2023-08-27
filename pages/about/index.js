@@ -4,7 +4,7 @@ import React from "react";
 import Container from "../../components/utils/Container";
 import CtaSection from "../../components/sections/CtaSection";
 
-const features = [
+{/*const features = [
   {
     name: "Competitive exchange rates",
     description:
@@ -41,7 +41,7 @@ const features = [
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
     iconUrl: "/assets/icons/about-icon-06.svg",
   },
-];
+];*/}
 
 const supportLinks = [
   {
