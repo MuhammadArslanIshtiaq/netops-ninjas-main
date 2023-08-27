@@ -88,6 +88,9 @@ const About = () => {
         <section className="bg-section text-white pt-12 sm:pt-20">
           <Container>
             <div className="my-20 max-w-4xl mx-auto text-center pt-2">
+             <h5 className="inline-block text-lg font-extrabold uppercase text-gradient mb-3">
+                About us
+              </h5> 
               <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-bold leading-tight sm:leading-tight xl:leading-tight">
                 Unlock your true business&apos;s potential with our 360-degree IT Solutions - Partner with us today!
               </h2>
