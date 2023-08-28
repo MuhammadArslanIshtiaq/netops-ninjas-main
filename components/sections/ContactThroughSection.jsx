@@ -18,6 +18,18 @@ const contactList = [
     description:`Info@netopsninjas.com`,
     link: "#",
   },
+  {
+    icon: EnvelopeIcon,
+    title: "Email Us for Support",
+    description:`support@netopsninjas.com`,
+    link: "#",
+  },
+  {
+    icon: EnvelopeIcon,
+    title: "Email Us for Sales",
+    description:`Sales@netopsninjas.com`,
+    link: "#",
+  },
 ];
 
 const ContactThroughSection = () => {
