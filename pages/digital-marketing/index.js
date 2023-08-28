@@ -11,15 +11,15 @@ import TestimonialSection from "../../components/sections/TestimonialSection";
 const serviceList = [
   {
     title: "Social Media Marketing",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino. Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    description: `Harness the power of social media – reach, engage, and build meaningful connections with your target audience.`,
   },
   {
     title: "Email Marketing",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino. Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    description: `Boost your online visibility and drive targeted traffic with effective search engine marketing strategies.`,
   },
   {
     title: "Organic Marketing",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino. Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    description: `Cultivate sustainable growth with organic marketing – build brand loyalty and establish a strong online presence.`,
   },
 ];
 
@@ -36,13 +36,13 @@ const NetworkingPage = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 <div className="mb-24 lg:mb-0 text-center lg:text-left">
                   <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight mb-6">
-                    We do the IT: you <br />
-                    grow your Business
+                    Ignite Your Online Success: Amplify <br />
+                    Your Reach with our Powerful Digital Marketing Strategies
                   </h2>
                   <p className="mb-16 lg:max-w-xl text-[1.375rem] text-gray-200">
-                    Lorem ipsum dolor sit amet consectetur. Justo in rho orci
-                    velit placerat enim. Convallis vitae enim vitae mauris
-                    cursus vitae urna amet.
+                    Supercharge your business growth with our comprehensive 
+                    Digital marketing services – leverage our expertise to 
+                    drive leads, conversions, and brand visibility.
                   </p>
                   <Link
                     href="/contact"
@@ -73,12 +73,11 @@ const NetworkingPage = () => {
           <Container>
             <div className="mb-12 max-w-4xl mx-auto text-center pt-2">
               <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight">
-                Lorem Ipsum Dolor Sit Amet Consisc
+                Accelerate Your Online Success: Unlocking Your Business's Full Potential with Powerful Digital Marketing
               </h2>
               <p className="mt-6 text-[1.375rem] text-gray-400">
-                Lorem ipsum dolor sit amet consectetur. Justo in rho orci velit
-                placerat enim. Convallis vitae enim vitae mauris cursus vitae
-                urna amet.
+                From strategic campaigns to data-driven insights, our digital marketing services 
+                propel your business forward. Expand your reach, engage your audience, and drive tangible results.
               </p>
             </div>
             <div className="py-12 sm:py-20">
