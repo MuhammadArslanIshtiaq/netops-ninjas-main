@@ -82,12 +82,11 @@ const NetworkingPage = () => {
           <Container>
             <div className="mb-12 max-w-4xl mx-auto text-center pt-2">
               <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight">
-                Lorem Ipsum Dolor Sit Amet Consisc
+                Reimagine the Future: Embrace the Power of Cloud Computing for Your Business
               </h2>
               <p className="mt-6 text-[1.375rem] text-gray-400">
-                Lorem ipsum dolor sit amet consectetur. Justo in rho orci velit
-                placerat enim. Convallis vitae enim vitae mauris cursus vitae
-                urna amet.
+                Unleash the true potential of your business with our cloud computing solutions. 
+                Embrace scalability, flexibility, and cost-efficiency as you harness the power of the clouds
               </p>
             </div>
             <div className="py-12 sm:py-20">
