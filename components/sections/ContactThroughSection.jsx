@@ -9,14 +9,14 @@ const contactList = [
   {
     icon: PhoneIcon,
     title: "Call Us",
-    description: ``,
-    link: "07427259087",
+    description: `07427259087`,
+    link: "#",
   },
   {
     icon: EnvelopeIcon,
     title: "Chat With Us",
-    description: ``,
-    link: "Info@netopsninjas.com",
+    description:`Info@netopsninjas.com`,
+    link: "#",
   },
 ];
 
