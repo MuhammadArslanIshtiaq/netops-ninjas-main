@@ -22,12 +22,6 @@ const AboutSection = () => {
                 solution-oriented and digitally more visible. Netops Ninjas is fortunate to have most experienced team,
                 multi-cultural and promoting a true workforce diversity.
               </p>
-              <Link
-                href="#"
-                className="bg-g-primary text-white text-lg font-bold rounded-xl py-5 px-10 hover:opacity-90 transition-all duration-300"
-              >
-                Learn more
-              </Link>
             </div>
             <div className="order-first lg:order-last">
               <div className="min-h-[25rem] sm:min-h-[37.5rem] lg:min-h-[43.75rem] h-full relative">
