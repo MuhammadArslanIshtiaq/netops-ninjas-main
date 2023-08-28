@@ -93,7 +93,7 @@ const NetworkingPage = () => {
               </h2>
               <p className="mt-6 text-[1.375rem] text-gray-400">
                 Unlock the power of efficient connectivity and collaboration with our cutting-edge networking solutions. 
-                Elevate your business's communication, productivity, and scalability to new heights
+                Elevate your business&apos;s communication, productivity, and scalability to new heights
               </p>
             </div>
             <div className="py-12 sm:py-20">
