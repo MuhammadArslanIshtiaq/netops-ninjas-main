@@ -10,24 +10,40 @@ import TestimonialSection from "../../../components/sections/TestimonialSection"
 
 const serviceList = [
   {
-    title: "Azure Boards",
+    title: "Azure managed services",
     description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
 
   {
-    title: "Azure Pipelines",
+    title: "Migrating to Cloud",
     description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
   {
-    title: "Azure Repos",
+    title: "Cloud runway",
     description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
   {
-    title: "Azure Test Plans",
+    title: "Datacentre refresh",
     description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
   {
-    title: "Azure Artifacts",
+    title: "Hybrid solutions",
+    description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
+  },
+  {
+    title: "Backup and DR",
+    description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
+  },
+  {
+    title: "Virtual desktops",
+    description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
+  },
+  {
+    title: "Data storage",
+    description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
+  },
+  {
+    title: "Containers",
     description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
 ];
@@ -45,13 +61,12 @@ const NetworkingPage = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 <div className="mb-24 lg:mb-0 text-center lg:text-left  ">
                   <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight mb-6">
-                    We do the IT: you <br />
-                    grow your Business
+                    Cloud and datacentre <br />
+                    solutions
                   </h2>
                   <p className="mb-16 lg:max-w-xl text-[1.375rem] text-gray-200">
-                    Lorem ipsum dolor sit amet consectetur. Justo in rho orci
-                    velit placerat enim. Convallis vitae enim vitae mauris
-                    cursus vitae urna amet.
+                    Using the right cloud and hybrid infrastructure, you can achieve 
+                    seamless connectivity from core to edge to the cloud.
                   </p>
                   <Link
                     href="/contact"
