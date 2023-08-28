@@ -10,7 +10,7 @@ import TestimonialSection from "../../../components/sections/TestimonialSection"
 
 const serviceList = [
   {
-    title: "Compute",
+    title: "Enterprise applications",
     description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
 
@@ -19,23 +19,27 @@ const serviceList = [
     description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
   {
-    title: "Database",
+    title: "Serverless computing",
     description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
   {
-    title: "Networking & Content Delivery",
+    title: "Machine learning",
     description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
   {
-    title: "Analytics",
+    title: "Analytics and data lakes",
     description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
   {
-    title: "Machine Learning",
+    title: "Internet of Things",
     description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
   {
-    title: "Security & Identity",
+    title: "Containers",
+    description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
+  },
+   {
+    title: "Window workloads",
     description: `Connect any user to any application with integrated capabilities for multicloud, security, and application optimization—all on a SASE-enabled architecture.`,
   },
 ];
@@ -53,13 +57,13 @@ const NetworkingPage = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 <div className="mb-24 lg:mb-0 text-center lg:text-left  ">
                   <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight mb-6">
-                    We do the IT: you <br />
-                    grow your Business
+                    Empowering Innovation with AWS <br />
                   </h2>
                   <p className="mb-16 lg:max-w-xl text-[1.375rem] text-gray-200">
-                    Lorem ipsum dolor sit amet consectetur. Justo in rho orci
-                    velit placerat enim. Convallis vitae enim vitae mauris
-                    cursus vitae urna amet.
+                    Amazon Web Services, known as AWS, stands as a diverse and extensively utilized cloud solution. 
+                    With its worldwide data centers, it delivers an array of services. Serving giants in the corporate world, 
+                    budding startups, and government entities, AWS empowers them to transition to the cloud, optimize expenses, 
+                    enhance flexibility, and accelerate innovation.
                   </p>
                   <Link
                     href="/contact"
