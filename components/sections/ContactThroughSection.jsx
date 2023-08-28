@@ -1,4 +1,4 @@
-import React from "react";
+iimport React from "react";
 import ContactCard from "../cards/ContactCard";
 import Container from "../utils/Container";
 
@@ -14,7 +14,7 @@ const contactList = [
   },
   {
     icon: EnvelopeIcon,
-    title: "Chat With Us",
+    title: "Email Us",
     description:`Info@netopsninjas.com`,
     link: "#",
   },
