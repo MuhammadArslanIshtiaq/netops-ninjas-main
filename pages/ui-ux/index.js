@@ -82,7 +82,7 @@ const NetworkingPage = () => {
               <p className="mt-6 text-[1.375rem] text-gray-400">
                 Make a lasting impression with captivating user experiences. 
                 Our expert UI/UX designers craft seamless interfaces that delight 
-                users and elevate your brand's digital presence.
+                users and elevate your brand&apos;s digital presence.
               </p>
             </div>
             <div className="py-12 sm:py-20">
