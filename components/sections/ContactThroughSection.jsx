@@ -9,20 +9,14 @@ const contactList = [
   {
     icon: PhoneIcon,
     title: "Call Us",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "#",
+    description: ``,
+    link: "07427259087",
   },
   {
     icon: EnvelopeIcon,
     title: "Chat With Us",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "#",
-  },
-  {
-    icon: MapPinIcon,
-    title: "Visit Us",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
-    link: "#",
+    description: ``,
+    link: "Info@netopsninjas.com",
   },
 ];
 
