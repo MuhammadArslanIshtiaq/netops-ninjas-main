@@ -13,7 +13,7 @@ const serviceList = [
     iconUrl: "/assets/icons/icon-fortinet.png",
     iconUrl2: "/assets/icons/icon-fortinet-active.png",
     title: "Fortinet",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    description: `Secure your digital infrastructure with Fortinet – protect your network from evolving threats with advanced security solutions`,
     link: "/firewalls/fortinet",
   },
   {
@@ -27,14 +27,14 @@ const serviceList = [
     iconUrl: "/assets/icons/icon-checkpoint.png",
     iconUrl2: "/assets/icons/icon-checkpoint-active.png",
     title: "Checkpoint",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    description: `Stay one step ahead of cyber threats with Checkpoint – safeguard your network with industry-leading security`,
     link: "/firewalls/checkpoint",
   },
   {
     iconUrl: "/assets/icons/icon-paloalto.png",
     iconUrl2: "/assets/icons/icon-paloalto-active.png",
     title: "Palo Alto",
-    description: `Lorem ipsum dolor sit amet consiscutor moriko namas mukino.`,
+    description: `Defend your digital assets with Palo Alto Networks – empower your business with next-generation firewall protection.`,
     link: "/firewalls/palo-alto",
   },
 ];
@@ -52,13 +52,13 @@ const NetworkingPage = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 <div className="mb-24 lg:mb-0 text-center lg:text-left">
                   <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight mb-6">
-                    We do the IT: you <br />
-                    grow your Business
+                    Protect What Matters: Fortify <br />
+                    Your Network with our Advanced Firewall Solutions
                   </h2>
                   <p className="mb-16 lg:max-w-xl text-[1.375rem] text-gray-200">
-                    Lorem ipsum dolor sit amet consectetur. Justo in rho orci
-                    velit placerat enim. Convallis vitae enim vitae mauris
-                    cursus vitae urna amet.
+                    Secure your digital assets with our top-tier 
+                    Firewall solutions – safeguard your business 
+                    from evolving cyber threats.
                   </p>
                   <Link
                     href="/contact"
@@ -89,12 +89,11 @@ const NetworkingPage = () => {
           <Container>
             <div className="mb-12 max-w-4xl mx-auto text-center pt-2">
               <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight">
-                Lorem Ipsum Dolor Sit Amet Consisc
+                Fortify Your Digital Fortress: Advanced Firewall Solutions for Uncompromising Security
               </h2>
               <p className="mt-6 text-[1.375rem] text-gray-400">
-                Lorem ipsum dolor sit amet consectetur. Justo in rho orci velit
-                placerat enim. Convallis vitae enim vitae mauris cursus vitae
-                urna amet.
+                Protect your business from cyber threats with our state-of-the-art firewall solutions. 
+                Safeguard your network, secure your data, and defend against evolving vulnerabilities
               </p>
             </div>
             <div className="py-12 sm:py-20">
