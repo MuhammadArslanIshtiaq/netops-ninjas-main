@@ -1,24 +1,5 @@
 import React from "react";
-import ContactCard from "../cards/ContactCard";
 import Container from "../utils/Container";
-
-// icons
-import { EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/20/solid";
-
-const contactList = [
-  {
-    icon: PhoneIcon,
-    title: "Call Us",
-    description: `07427259087`,
-    link: "#",
-  },
-  {
-    icon: EnvelopeIcon,
-    title: "Email Us",
-    description:`Info@netopsninjas.com`,
-    link: "#",
-  },
-];
 
 const ContactThroughSection = () => {
   return (
@@ -33,16 +14,7 @@ const ContactThroughSection = () => {
               You Can Also Contact Us Through Given Options
             </h2>
           </div>
-          {/* == */}
-          <div>
-            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {contactList.map((item, index) => (
-                <li key={`contact-${index}`}>
-                  <ContactCard items={item} />
-                </li>
-              ))}
-            </ul>
-          </div>
+          {/* Here, the map over the contactList and the rendering of ContactCard components has been removed */}
         </div>
       </Container>
     </section>
@@ -50,3 +22,4 @@ const ContactThroughSection = () => {
 };
 
 export default ContactThroughSection;
+
