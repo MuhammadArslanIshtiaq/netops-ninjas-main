@@ -57,7 +57,7 @@ const NetworkingPage = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 <div className="mb-24 lg:mb-0 text-center lg:text-left  ">
                   <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight mb-6">
-                    Empowering Innovation with AWS <br />
+                    Harnessing AWS for Client Progress <br />
                   </h2>
                   <p className="mb-16 lg:max-w-xl text-[1.375rem] text-gray-200">
                     Amazon Web Services, known as AWS, stands as a diverse and extensively utilized cloud solution. 
