@@ -77,7 +77,7 @@ const NetworkingPage = () => {
               </h2>
               <p className="mt-6 text-[1.375rem] text-gray-400">
                 From robust hardware to resilient software, we design and implement tailored 
-                infrastructure solutions that lay the foundation for your business's success. 
+                infrastructure solutions that lay the foundation for your business&apos;s success. 
                 Experience enhanced performance, security, and reliability
               </p>
             </div>
