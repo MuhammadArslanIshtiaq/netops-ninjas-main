@@ -124,13 +124,13 @@ export default function Footer() {
                 <ul role="list" className="mt-4 space-y-4">
                   <li>
                     <p className="text-sm leading-relaxed text-gray-300">
-                      NetOps Ninjas Ltd,
-                      Clevedon, United Kingdom
+                      NetOps Ninjas,
+                      Middlesbrough, United Kingdom
                     </p>
                   </li>
                   <li>
                     <p className="text-sm leading-relaxed text-gray-300">
-                      NetOps Ninjas Ltd, 
+                      NetOps Ninjas, 
                       Islamabad, Pakistan
                     </p>
                   </li>
