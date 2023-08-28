@@ -73,7 +73,7 @@ const NetworkingPage = () => {
           <Container>
             <div className="mb-12 max-w-4xl mx-auto text-center pt-2">
               <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-tight sm:leading-tight xl:leading-tight">
-                Accelerate Your Online Success: Unlocking Your Business's Full Potential with Powerful Digital Marketing
+                Accelerate Your Online Success: Unlocking Your Business&apos;'s Full Potential with Powerful Digital Marketing
               </h2>
               <p className="mt-6 text-[1.375rem] text-gray-400">
                 From strategic campaigns to data-driven insights, our digital marketing services 
