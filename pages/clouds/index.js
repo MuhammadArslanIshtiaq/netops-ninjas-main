@@ -64,7 +64,7 @@ const NetworkingPage = () => {
                 <div className="order-first lg:order-last sm:py-16 lg:py-0 mx-auto">
                   <div className="min-h-[25rem] sm:min-h-[37.5rem] lg:min-h-[43.75rem] h-full relative pt-24">
                     <Image
-                      src="/assets/images/feature-img-networking.png"
+                      src="/assets/images/image-cloud.png"
                       width={785}
                       height={785}
                       alt="..."
