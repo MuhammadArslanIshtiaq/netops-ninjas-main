@@ -75,7 +75,7 @@ const NetworkingPage = () => {
                 <div className="order-first lg:order-last sm:py-16 mt-10 ml-10 lg:py-0">
                   <div className="min-h-[20rem] sm:min-h-[37.5rem] lg:min-h-[43.75rem] h-full relative mt-10">
                     <Image
-                      src="/assets/images/feature-img-aws.png"
+                      src="/assets/images/work-02.png"
                       width={950}
                       height={950}
                       alt="..."
