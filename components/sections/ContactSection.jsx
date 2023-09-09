@@ -10,7 +10,7 @@ const ContactSection = () => {
             Want to Talk with our Spokesperson?
           </h2>
           <p className="mb-16 lg:max-w-xl text-[1.375rem] text-gray-300">
-            Get connected with us and let us explain to you how our services can be your digital strengths 
+            Get connected with us and let us explain you how our services can be your digital strengths 
           </p>
           <form noValidate>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-8">
@@ -41,7 +41,7 @@ const ContactSection = () => {
                     Last Name
                   </label>
                   <input
-                    className="w-full p-3 rounded-lg bg-info border border-gray-500 focus:border-l-pink-500 focus:border-t-pink-500 focus:border-r-secondary focus:border-b-secondary  focus-visible:outline-0 placeholder:text-gray-300"
+                    className="w-1/2 p-3 rounded-lg bg-info border border-gray-500 focus:border-l-pink-500 focus:border-t-pink-500 focus:border-r-secondary focus:border-b-secondary  focus-visible:outline-0 placeholder:text-gray-300"
                     type="text"
                     id="LastName"
                     name="LastName"
@@ -59,7 +59,7 @@ const ContactSection = () => {
                     Email
                   </label>
                   <input
-                    className="w-full p-3 rounded-lg bg-info border border-gray-500 focus:border-l-pink-500 focus:border-t-pink-500 focus:border-r-secondary focus:border-b-secondary  focus-visible:outline-0 placeholder:text-gray-300"
+                    className="w-1/2 p-3 rounded-lg bg-info border border-gray-500 focus:border-l-pink-500 focus:border-t-pink-500 focus:border-r-secondary focus:border-b-secondary  focus-visible:outline-0 placeholder:text-gray-300"
                     type="email"
                     id="Email"
                     name="Email"
@@ -72,7 +72,7 @@ const ContactSection = () => {
                 <div>
                   <label
                     className="capitalize block text-lg font-semibold mb-2"
-                    htmlFor="FirstName"
+                    htmlFor="Phone"
                   >
                     Phone Number
                   </label>
@@ -97,7 +97,7 @@ const ContactSection = () => {
                       type="text"
                       name="phone-number"
                       id="phone-number"
-                      className="block w-full rounded-lg p-3 pl-20 bg-info border border-gray-500 focus:border-l-pink-500 focus:border-t-pink-500 focus:border-r-secondary focus:border-b-secondary  focus-visible:outline-0 placeholder:text-gray-300"
+                      className="block w-1/2 rounded-lg p-3 pl-20 bg-info border border-gray-500 focus:border-l-pink-500 focus:border-t-pink-500 focus:border-r-secondary focus:border-b-secondary  focus-visible:outline-0 placeholder:text-gray-300"
                       placeholder=""
                     />
                   </div>
@@ -113,7 +113,7 @@ const ContactSection = () => {
                   </label>
                   <textarea
                     rows={4}
-                    className="resize-none w-full p-3 rounded-lg bg-info border border-gray-500 focus:border-l-pink-500 focus:border-t-pink-500 focus:border-r-secondary focus:border-b-secondary  focus-visible:outline-0 placeholder:text-gray-300"
+                    className="resize-none w-1/2 p-3 rounded-lg bg-info border border-gray-500 focus:border-l-pink-500 focus:border-t-pink-500 focus:border-r-secondary focus:border-b-secondary  focus-visible:outline-0 placeholder:text-gray-300"
                     type="text"
                     id="Description"
                     name="Description"
@@ -131,7 +131,7 @@ const ContactSection = () => {
                   <select
                     id="service"
                     name="service"
-                    className="w-full p-3 rounded-lg bg-info border border-gray-500 focus:border-l-pink-500 focus:border-t-pink-500 focus:border-r-secondary focus:border-b-secondary  focus-visible:outline-0 placeholder:text-gray-300"
+                    className="w-1/2 p-3 rounded-lg bg-info border border-gray-500 focus:border-l-pink-500 focus:border-t-pink-500 focus:border-r-secondary focus:border-b-secondary  focus-visible:outline-0 placeholder:text-gray-300"
                   >
                     <option selected disabled value="-">
                       Please Select
@@ -149,7 +149,7 @@ const ContactSection = () => {
               <li className="sm:col-span-2">
                 <button
                   type="submit"
-                  className="w-full bg-g-primary text-white text-lg font-semibold rounded-lg p-3 px-10 hover:opacity-90 transition-all duration-300"
+                  className="w-1/2 bg-g-primary text-white text-lg font-semibold rounded-lg p-3 px-10 hover:opacity-90 transition-all duration-300"
                 >
                   Submit
                 </button>
@@ -163,3 +163,4 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
+
