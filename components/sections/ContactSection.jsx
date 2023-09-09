@@ -14,37 +14,19 @@ const ContactSection = () => {
           </p>
           <form noValidate>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-              <li>
+              <li className="sm:col-span-2">
                 <div>
                   <label
                     className="capitalize block text-lg font-semibold mb-2"
-                    htmlFor="FirstName"
+                    htmlFor="Name"
                   >
-                    First Name
+                    Name
                   </label>
                   <input
                     className="w-1/2 p-3 rounded-lg bg-info border border-gray-500 focus:border-l-pink-500 focus:border-t-pink-500 focus:border-r-secondary focus:border-b-secondary  focus-visible:outline-0 placeholder:text-gray-300"
                     type="text"
-                    id="FirstName"
-                    name="FirstName"
-                    placeholder=""
-                    required
-                  />
-                </div>
-              </li>
-              <li>
-                <div>
-                  <label
-                    className="capitalize block text-lg font-semibold mb-2"
-                    htmlFor="LastName"
-                  >
-                    Last Name
-                  </label>
-                  <input
-                    className="w-1/2 p-3 rounded-lg bg-info border border-gray-500 focus:border-l-pink-500 focus:border-t-pink-500 focus:border-r-secondary focus:border-b-secondary  focus-visible:outline-0 placeholder:text-gray-300"
-                    type="text"
-                    id="LastName"
-                    name="LastName"
+                    id="Name"
+                    name="Name"
                     placeholder=""
                     required
                   />
@@ -163,4 +145,5 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
+
 
